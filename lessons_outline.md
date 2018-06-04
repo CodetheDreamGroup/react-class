@@ -1,30 +1,13 @@
 # Code the Dream - React Course
 
 * Introduction
-    * Icebreaker
-    * Class Overview
-    * The dip, http://sethgodin.typepad.com/.shared/image.html?/photos/uncategorized/2007/05/20/chart1.jpg
-        * This class is where you start to encounter the dip with programming
-        * But it is worth pushing through
-    * Review of website structure
-        * HTML
-        * CSS
-        * JS
-    * Introduction/review of ES6 concepts
-        * let
-        * const
-        * Arrow functions
-        * Classes
-        * Template literals
-        * ES6 modules
-    * Why learn React?
-        * https://insights.stackoverflow.com/survey/2018/
-        * https://ashleynolan.co.uk/blog/frontend-tooling-survey-2018-results
-        * Other resources
     * Introduction to React
         * What problem does it solve
         * Hello World example
 * React Overview
+    * More ES6 concepts
+        * Classes
+        * ES6 modules
     * React Concepts
         * Virtual DOM
         * Components
