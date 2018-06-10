@@ -2,18 +2,19 @@
 
 * Introduction
     * Introduction to React
-        * What problem does it solve
         * Hello World example
 * React Overview
-    * More ES6 concepts
-        * Classes
-        * ES6 modules
     * React Concepts
+        * What problem(s) does it solve
         * Virtual DOM
         * Components
         * JSX
+* Components
     * Function Components
     * Babel and transpiling
+    * More ES6 concepts
+        * Classes
+        * ES6 modules
 * Props
     * Passing props in to function components
     * Rerendering with new props

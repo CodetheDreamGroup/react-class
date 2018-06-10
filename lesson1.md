@@ -12,13 +12,7 @@ console.log("Welcome to the React Course for Code the Dream");
 
 ## Wifi
 
-* Network: AmericanUnderground
-* Password: ???
 
-Login info
-
-* username: auguest
-* password: auguest
 
 ---
 
@@ -36,6 +30,8 @@ Tuesdays and Thursdays
 ## Tools
 
 * Slack
+  * codethedream.slack.com
+  * channel: react-summer-2018
 * Cloud9
 * Github
 
