@@ -5,17 +5,23 @@
         * Hello World example
 * React Overview
     * React Concepts
-        * What problem(s) does it solve
-        * Virtual DOM
-        * Components
         * JSX
+        * Virtual DOM
+        * What problem(s) does it solve
 * Components
     * Function Components
-    * Babel and transpiling
+    * Other React Ideas
+        * Using the browser DevTools to show how React only updates what changes in the DOM
     * More ES6 concepts
         * Classes
+* Thinking in React
+    * Thinking in React
+    * ES6 modules and NPM
         * ES6 modules
 * Props
+    * Programming concepts
+        * Pure functions
+    * Babel and transpiling
     * Passing props in to function components
     * Rerendering with new props
     * Characteristics of props

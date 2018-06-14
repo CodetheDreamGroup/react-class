@@ -49,7 +49,10 @@
     * class components
     * JSX
 
-
+## Themes to use for examples
+* Super heroes
+* Movie references
+* 
 
 ## Other thoughts
 * What is the best starting environment for the students?
