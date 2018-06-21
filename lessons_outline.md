@@ -6,19 +6,27 @@
 * React Overview
     * React Concepts
         * JSX
+            * JSX is not HTML
+            * Embedding JavaScript in JSX
+            * Self-closing JSX tags
+            * Attributes
         * Virtual DOM
         * What problem(s) does it solve
+    * Web Development History
 * Components
+    * Abstraction
     * Function Components
-    * Other React Ideas
-        * Using the browser DevTools to show how React only updates what changes in the DOM
-    * More ES6 concepts
-        * Classes
+    * Composing components
+    * JavaScript classes
+        * Constructors
+        * Inheritance
 * Thinking in React
     * Thinking in React
     * ES6 modules and NPM
         * ES6 modules
 * Props
+    * Other React Ideas
+        * Using the browser DevTools to show how React only updates what changes in the DOM
     * Programming concepts
         * Pure functions
     * Babel and transpiling

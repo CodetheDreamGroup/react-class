@@ -8,11 +8,10 @@
 	* Stopwatch
 	* Carousel
 	* Grocery list
+	* Alarm Clock
 
 ## Form
 	* Get name and say hello
-	
-	
 
 ## Advanced
 	* Jeopardy

@@ -48,6 +48,7 @@
     * functional components
     * class components
     * JSX
+    ReactDOM
 
 ## Themes to use for examples
 * Super heroes
