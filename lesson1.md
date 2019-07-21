@@ -5,25 +5,23 @@ title: Review and React Intro
 
 # Welcome
 ```javascript
-console.log("Welcome to the React Course for Code the Dream");
+console.log(`Welcome to the React Course
+             for Code the Dream`);
 ```
 
 ---
 
-## Wifi
-
-
-
----
-
-## Overview
+# Overview
 
 --
 
 ## Schedule
 
-Tuesdays and Thursdays
-6:30 - 8:30
+Tuesdays (remote): 7-9
+
+Thursdays (on-site): 7-9
+
+Saturdays (on-site): 10-12
 
 --
 
@@ -31,40 +29,11 @@ Tuesdays and Thursdays
 
 * Slack
   * codethedream.slack.com
-  * channel: react-summer-2018
-* Cloud9
 * Github
+* [Repl.it](https://repl.it)?
+* Cloud9 AWS?
+* Local workspaces?
 
---
-
-## Teaching style
-
-Class time will be split up between teaching new topics, group work, and working through examples and exercises.
-
-Assignments will be based on concepts convered in class and will build on each other throughout the course.
-
---
-
-# Icebreaker
-
----
-
-The Dip
-
-![the dip](/images/the-dip.jpg)
-
---
-
-Many people seem to encounter the dip at around this point in their programming journey.
-
-They get frustrated that they can describe what they want to accomplish, but have a hard time turning it in to actual code.
-<!-- .element: class="fragment" -->
-
-Unfortunately, there is no shortcut to learning how to transform your thoughts in to code.
-<!-- .element: class="fragment" -->
-
-It takes time and practice.
-<!-- .element: class="fragment" -->
 
 --
 
@@ -183,7 +152,7 @@ In JavaScript, most things are objects, from core JavaScript features like strin
 
 ---
 
-### New JavaScript Syntax
+### ES6 JavaScript Syntax
 
 ---
 
@@ -255,20 +224,11 @@ Don't worry if you don't know what that means, but feel free to look it up and c
 
 ## Template Literals
 
-Template literals are string literals allowing embedded expressions within `${}` in the string
-
-Template literals are enclosed by the **back-tick** ` instead of single or double quotes
-
-Template literals are frequently used in place of string concatenation when creating strings using variables
-
---
-
-## Template literal examples
-
 ```javascript
 let theAnswer = 42;
 
-console.log(`The answer to the Ultimate Question of Life, the Universe, and Everything is ${theAnswer}`);
+console.log(`The answer to the Ultimate Question of Life, 
+             the Universe, and Everything is ${theAnswer}`);
 
 let name = "Jared";
 let greeting = "How are you today?";
@@ -343,7 +303,6 @@ Arrow functions have become quite popular, especially in the React community, wh
 --
 
 ```javascript
-// Can you guess why it's called an *arrow function*
 let add = (num1, num2) => { return num1 + num2; }
 console.log(add(6, 7));                         // 13
 
@@ -359,7 +318,7 @@ console.log(square(6));                         // 36
 
 ---
 
-# Why React
+# Why Learn React
 
 * Large community
 * Large ecosystem
@@ -378,4 +337,86 @@ Avoid this urge
 > I fear not the man who has practiced 10,000 kicks once, but I fear the man who had practiced one kick 10,000 times
 
 Bruce Lee
+
+---
+
+# What is React
+
+> A JavaScript library for building user interfaces
+
+[React](https://reactjs.org/)
+
+---
+
+# React Features
+
+* Declarative
+* Component-Based
+* Composable
+* JSX
+* Virtual DOM
+
+---
+
+# Declarative
+
+Imperative code says **how** to change the state of something
+
+Declarative code says **what** the state of something should be, but not how to get there from its current state
+
+--
+
+It's the difference between ordering a meal at a restaurant **declarative**
+
+vs
+
+following a recipe to make a meal at home **imperative**
+
+--
+
+React is declarative vs something like jQuery which is imperative
+
+The declarative nature of React reduces/removes the need to figure out how to transition the state of the program from one state to another, which can get very complicated
+
+---
+
+# Component-Based
+
+React application are **composed** of **components** that each manage their own state
+
+This makes reusing the components in multiple places/applications easy
+
+---
+
+# Composable
+
+React components can render other React components
+
+It is very similar to how you can nest HTML elements inside other HTML elements
+
+---
+
+# JSX
+
+A syntax extension to JavaScript
+
+Allows writing HTML like syntax directly in a JavaScript file
+
+---
+
+# Virtual DOM
+
+The virtual DOM is how React is able to be written declaratively
+
+It virtually rerenders the whole app on every update
+
+It is like it is rendering an entirely new webpage with each change
+
+---
+
+# Examples
+
+--
+
+
 

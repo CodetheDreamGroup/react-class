@@ -42,10 +42,10 @@
     * Converting a component to a class component
     * state
         * Difference between state and props
-            □ State can vary, props are read only
+            * State can vary, props are read only
         * Changing the state
         * Asynchronous nature of state updates
-            □ Probably need to introduce the concept of synchronous vs ansynchronous
+            * Probably need to introduce the concept of synchronous vs ansynchronous
 * Component lifecycle
 * Events
 * Controlled Inputs
